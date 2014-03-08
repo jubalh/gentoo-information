@@ -46,7 +46,7 @@ Navigate to http://www.gentoo.org/main/en/mirrors.xml
 
 Choose a mirror near you and go to ```releases/{arch}/current-stage3/stage3-amd64-{creationdate}.tar.bz2```. You can use the browser *links* for that.
 
-Also download ``snapshots/portage-latest.tar.bz2```
+Also download ```snapshots/portage-latest.tar.bz2```
 
 Unpack via
 ```
@@ -71,7 +71,7 @@ mount -o bin /sys /mnt/gentoo/sys
 mirrorselect -i -o >> /mnt/gentoo/etc/make.conf
 vim /mnt/gentoo/etc/make.conf
 ```
-.../mnt/gentoo/etc/make.conf:
+/mnt/gentoo/etc/make.conf:
 ```
 #for europe:
 SYNC="rsync://sync.europe.gentoo.org/gentoo-portage"
