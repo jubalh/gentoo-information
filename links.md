@@ -21,11 +21,14 @@
 
 - emerge -Opv vim
 
-setxkbmap de
+- setxkbmap de
 
-flaggie
+- flaggie
 
-schauen wie paket kompiliert wurde:
+- schauen wie paket kompiliert wurde:
 emerge -vp pkg
 oder eix
 oder emerge --info pkg
+
+- list all installed packages: http://how-to.wikia.com/wiki/How_to_find_all_packages_emerged(installed)_on_a_Gentoo_Linux_system
+
