@@ -18,3 +18,5 @@
 - for the macbook: http://wiki.gentoo.org/wiki/Apple_Macbook_Pro_Retina
 
 - look at openbox wiki for xinitrc. --exit-with-session? https://wiki.gentoo.org/wiki/Openbox/HOWTO
+
+- emerge -Opv vim
