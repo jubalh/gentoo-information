@@ -22,3 +22,10 @@
 - emerge -Opv vim
 
 setxkbmap de
+
+flaggie
+
+schauen wie paket kompiliert wurde:
+emerge -vp pkg
+oder eix
+oder emerge --info pkg
