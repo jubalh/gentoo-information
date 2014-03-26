@@ -20,3 +20,5 @@
 - look at openbox wiki for xinitrc. --exit-with-session? https://wiki.gentoo.org/wiki/Openbox/HOWTO
 
 - emerge -Opv vim
+
+setxkbmap de
