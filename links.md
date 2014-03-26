@@ -32,3 +32,4 @@ oder emerge --info pkg
 
 - list all installed packages: http://how-to.wikia.com/wiki/How_to_find_all_packages_emerged(installed)_on_a_Gentoo_Linux_system
 
+- Kompilier Optimierung: http://www.gentoo.de/doc/de/gcc-optimization.xml
