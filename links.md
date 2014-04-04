@@ -33,3 +33,33 @@ oder emerge --info pkg
 - list all installed packages: http://how-to.wikia.com/wiki/How_to_find_all_packages_emerged(installed)_on_a_Gentoo_Linux_system
 
 - Kompilier Optimierung: http://www.gentoo.de/doc/de/gcc-optimization.xml
+
+# power manager
+xfce4-power-manager
+also gnome-power-manager exists
+http://vincent.bernat.im/en/blog/2011-gnome-power-manager.html
+
+# how to participate in gentoo
+http://blogs.gentoo.org/news/2014/03/31/gentoo-monthly-newsletter-march-2014/
+
+# disk
+pmount, udev, thunar-volman
+find out uuids and then fstab/mount http://liquidat.wordpress.com/2007/10/15/short-tip-get-uuid-of-hard-disks/
+https://wiki.archlinux.org/index.php/USB_Storage_Devices
+
+# good overall read for minimal DE
+https://wiki.archlinux.org/index.php/openbox
+
+# displays/monitors
+xrandr
+arandr
+lxrandr
+
+brightness control i3?
+
+# volume control
+alsamixer
+volumeicon
+
+#keyring, passowords, authentication
+https://wiki.archlinux.org/index.php/GNOME_Keyring
