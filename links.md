@@ -63,3 +63,9 @@ volumeicon
 
 #keyring, passowords, authentication
 https://wiki.archlinux.org/index.php/GNOME_Keyring
+
+#network
+http://wiki.gentoo.org/wiki/NetworkManager
+emerge nm-applet
+or just dhcpcd
+rc-update add dhcpcd default
