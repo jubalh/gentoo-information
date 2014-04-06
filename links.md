@@ -69,3 +69,13 @@ http://wiki.gentoo.org/wiki/NetworkManager
 emerge nm-applet
 or just dhcpcd
 rc-update add dhcpcd default
+
+# installation und updates
+install:
+- emerge -avn prog1 prog2 prog3
+update:
+- emerge -aDNuv world
+- emerge --depclean
+- revdep-rebuild
+configs:
+- dispatch-conf
