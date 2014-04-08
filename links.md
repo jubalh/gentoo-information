@@ -79,3 +79,22 @@ update:
 - revdep-rebuild
 configs:
 - dispatch-conf
+
+# source
+look for it in /usr/portage/distfiles
+
+you can even have portage unpack it an apply the
+patches with `ebuild $(equery w PACAKGENAME) prepare`, then look
+in /var/tmp/portage/
+then you make a local portage overlay, copy the
+ebuild into it, and modify that.
+https://wiki.gentoo.org/wiki/Overlay/Local_overlay
+also check user_patch epatch_user
+
+##debug in gentoo
+http://matija.suklje.name/lazy-mans-guide-to-debugging-in-gentoo
+
+getting "install glibc with debuginfo" in valgrind
+the quick one-time fix is `FEATURES=splitdebug emerge -1 sys-libs/glibc`
+
+To make it permanent (after future glibc upgrades/rebuilds) you can either enable FEATURES=splitdebug globally in make.conf which takes up more disk space, or use https://wiki.gentoo.org/wiki/etc/portage/env functionality.
