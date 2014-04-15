@@ -98,3 +98,6 @@ getting "install glibc with debuginfo" in valgrind
 the quick one-time fix is `FEATURES=splitdebug emerge -1 sys-libs/glibc`
 
 To make it permanent (after future glibc upgrades/rebuilds) you can either enable FEATURES=splitdebug globally in make.conf which takes up more disk space, or use https://wiki.gentoo.org/wiki/etc/portage/env functionality.
+
+#localisation
+http://www.gentoo.org/doc/de/guide-localization.xml
