@@ -101,3 +101,6 @@ To make it permanent (after future glibc upgrades/rebuilds) you can either enabl
 
 #localisation
 http://www.gentoo.org/doc/de/guide-localization.xml
+
+XDefaults
+https://wiki.archlinux.de/title/Xdefaults#Other_Resources
