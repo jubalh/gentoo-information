@@ -49,6 +49,7 @@ https://wiki.archlinux.org/index.php/USB_Storage_Devices
 
 # good overall read for minimal DE
 https://wiki.archlinux.org/index.php/openbox
+https://wiki.archlinux.org/index.php/desktop_environment#Custom_environments
 
 # displays/monitors
 xrandr
