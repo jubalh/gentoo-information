@@ -105,3 +105,6 @@ http://www.gentoo.org/doc/de/guide-localization.xml
 
 XDefaults
 https://wiki.archlinux.de/title/Xdefaults#Other_Resources
+
+# Fonts #
+http://kev009.com/wp/2009/12/getting-beautiful-fonts-in-gentoo-linux/
