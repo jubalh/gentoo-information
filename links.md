@@ -115,3 +115,14 @@ DejaVu Sans Mono Book
 
 #GTK Themes
 Greybird
+
+## applications ##
+
+# Backup #
+[Conduit](http://wiki.ubuntuusers.de/Conduit)
+grsync
+synkron
+unison
+
+# duplicate files/cleanup #
+fslint
