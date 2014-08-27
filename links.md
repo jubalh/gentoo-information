@@ -19,7 +19,10 @@
 
 - look at openbox wiki for xinitrc. --exit-with-session? https://wiki.gentoo.org/wiki/Openbox/HOWTO
 
-- emerge -Opv vim
+Info mit welchen flags packet installiert wurde:
+ emerge -Opv vim
+info was ein flag tut:
+ equery u mpv
 
 - setxkbmap de
 
