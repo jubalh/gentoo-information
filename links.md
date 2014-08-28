@@ -129,3 +129,7 @@ unison
 
 # duplicate files/cleanup #
 fslint
+
+# X11 Cursors #
+gentoo speichert xcursors in /usr/share/cursors/xorg-x11  lxappearance in /usr/share/icons
+ln -s /usr/share/cursors/xorg-x11/* /usr/share/icons/
