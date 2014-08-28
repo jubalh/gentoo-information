@@ -133,3 +133,7 @@ fslint
 # X11 Cursors #
 gentoo speichert xcursors in /usr/share/cursors/xorg-x11  lxappearance in /usr/share/icons
 ln -s /usr/share/cursors/xorg-x11/* /usr/share/icons/
+
+# portage tmpfs & SSDs #
+http://wiki.gentoo.org/wiki/Portage_TMPDIR_on_tmpfs
+http://wiki.gentoo.org/wiki/SSD
