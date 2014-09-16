@@ -137,3 +137,24 @@ ln -s /usr/share/cursors/xorg-x11/* /usr/share/icons/
 # portage tmpfs & SSDs #
 http://wiki.gentoo.org/wiki/Portage_TMPDIR_on_tmpfs
 http://wiki.gentoo.org/wiki/SSD
+
+# Terminal #
+## urxvt ##
+urxvt -fn 'xft:DejaVu Sans Mono:pixelsize=14,style=regular'
+see all fonts with: fc-list
+
+from:
+http://askubuntu.com/questions/22419/how-do-i-make-urxvt-render-xft-fonts 
+
+
+# package/ebuild information #
+http://gentoobrowse.randomdan.homeip.net/
+
+# Backup / Gentoo on multiple computers / admin #
+- stage4
+  http://blinkeye.ch/dokuwiki/doku.php/projects/mkstage4
+- binpkg
+  http://www.funtoo.org/How_to_set_up_a_binary_package_server
+  http://wiki.gentoo.org/wiki/Binary_package_guide
+  http://judepereira.com/blog/binpkg-gentoos-masterpiece/http://judepereira.com/blog/binpkg-gentoos-masterpiece/
+
